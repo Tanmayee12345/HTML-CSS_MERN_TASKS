@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .q{
+      display: grid;
+      grid-template-columns: 2fr 10fr;
+    }
+    .left{
+      border: 1px solid black;
+      margin: 5px;
+      padding: 5px;
+      padding-bottom: 0;
+    }
+    .right{
+            display: grid;
+            grid-template-columns: 150px 50px 70px 70px 50px;
+            margin-top: 50px;
+            
+     
+     
+            
+    }
+    .d{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      color: blue;
+      background-color: aqua;
+    }
+    .s{
+      color: blue;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      background-color: aqua;
+    }
+    .s:hover{
+      background-color: goldenrod;
+      color: white;
+    }
+    .f{
+      margin-left: 80px;
+      color: blue;
+      background-color: lightslategray;
+      height: 30px;
+      text-align: center;
+      padding-top: 5px;
+      border-right: 1px solid blue;
+    }
+    .g{
+      height: 30px;
+      color: blue;
+      background-color: lightslategray;
+      text-align: center;
+      padding-top: 5px;
+      border-right: 1px solid blue;
+    }
+    .f:hover{
+      color:white;
+      background-color: gray;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="q">
+    <div><h4 >Vertical navigation bar</h4></div>
+    <div><h4  style="margin-left: 150px;">Horizontal navigation bar</h4></div>
+    <div class="left">
+      <div class="s">Home</div>
+      <div class="d"> Java</div>
+      <div class="d">CSS</div>
+      <div class="d">HTML</div>
+      <div class="d">Bootstrap</div>
+    </div>
+    
+    <div class="right">
+      
+      <div class="f">Home</div>
+      <div class="g">Java</div>
+      <div class="g">HTML</div>
+      <div class="g">CSS</div>
+      <div class="g"></div>
+    </div>
+  </div>
+</body>
+</html>
